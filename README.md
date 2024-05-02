@@ -29,5 +29,7 @@ Maximum reward achieved is between 800k-810k steps:
 
 Visualization of training (about 800k steps in):
 
-https://github.com/AkshayKulkarni3467/Automated-SnakeAndApple/assets/129979542/5f8637f0-4a0e-4291-b902-9f8abda6af79
+https://github.com/AkshayKulkarni3467/Automated-SnakeAndApple/assets/129979542/7b2b75ad-0fa9-4234-9873-10ed3ade28f7
+
+
 
