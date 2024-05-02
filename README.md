@@ -1,6 +1,6 @@
 The rules of snake and apple game are as follows:
 If the snake eats an apple, its length increases.
-If the snake crosses the boundary or touches itself, it dies
+If the snake crosses the boundary or touches itself, it dies.
 The score is the amount of apples collected.
 
 ![image](https://github.com/AkshayKulkarni3467/Automated-SnakeAndApple/assets/129979542/7616c5fd-a8ce-4317-8d6d-d402f2fb4a4f)
@@ -8,10 +8,15 @@ The score is the amount of apples collected.
 Training an RL agent using stable-baselines3. Here a custom environment is created using openai-gym of snake and apple and the agent is trained on it.
 
 Here the observation space (feature space) is given by:
+
 Position of head of snake, position of apple, snake length, previous actions
+
 The action space is given by:
+
 UP, DOWN, LEFT, RIGHT
+
 The reward is given by:
+
 For each step taken : ((250 - euclidean distance to apple) + apple_reward)/100
 
 Mean length increase of snake and mean total rewards after 1 million steps:
